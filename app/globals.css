@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Merriweather", serif;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #363234 0%, #2a2628 100%);
+    color: #f0e9ec;
+    min-height: 100vh;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 90%;
+    max-width: 56rem;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    border-radius: 12px;
+    background: #1f1b1d;
+    border: 1px solid #2f2b2d;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.24);
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #7c7769, transparent);
+    margin: 2.5rem 0;
+}
+
+#main-header {
+    width: 90%;
+    max-width: 56rem;
+    margin: 2.5rem auto 1.5rem;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #2f2b2d;
+}
+
+#main-header #logo a {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: #f9f6f1;
+    text-decoration: none;
+    letter-spacing: -0.5px;
+}
+
+#main-header ul {
+    display: flex;
+    gap: 0.75rem;
+}
+
+#main-header ul a {
+    color: #d8d1d4;
+    text-decoration: none;
+    padding: 0.625rem 1.25rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    font-weight: 500;
+}
+
+#main-header ul a:hover {
+    background: rgba(95, 90, 92, 0.3);
+    color: #f9f6f1;
+    transform: translateY(-1px);
+}
+
+.messages li {
+    margin: 1.25rem 0;
+    padding: 1.25rem;
+    border-radius: 8px;
+    background: #2a2628;
+    border-left: 4px solid #f6b511;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    margin-bottom: 1.5rem;
+}
+
+.form-control label,
+.form-control input,
+.form-control textarea {
+    display: block;
+    width: 100%;
+}
+
+.form-control label {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #d4cbb2;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.3px;
+}
+
+.form-control input,
+.form-control textarea {
+    font: inherit;
+    padding: 0.875rem;
+    border-radius: 8px;
+    border: 2px solid #3a3638;
+    background: #2a2628;
+    color: #f4edde;
+    transition: all 0.2s ease;
+}
+
+.form-control input:focus,
+.form-control textarea:focus {
+    outline: none;
+    border-color: #f6b511;
+    box-shadow: 0 0 0 3px rgba(246, 181, 17, 0.1);
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #2f2b2d;
+}
+
+.form-actions button {
+    font: inherit;
+    padding: 0.75rem 1.75rem;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #f6b511 0%, #f0a90a 100%);
+    color: #161514;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 12px rgba(246, 181, 17, 0.2);
+}
+
+.form-actions button:hover {
+    background: linear-gradient(135deg, #f6a611 0%, #ea9c08 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(246, 166, 17, 0.3);
+}
+
+.form-actions button:active {
+    transform: translateY(0);
+}
