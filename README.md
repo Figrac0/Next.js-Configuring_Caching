@@ -1,7 +1,7 @@
 # Next.js Caching Configuration - Complete Guide
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Figrac0/Next.js-Configuring_Caching/main/public/1.png" alt="Main interface of the NextCaching project showing the messages page with a form to add new messages" width="400"/><br/>
+  <img src="https://raw.githubusercontent.com/Figrac0/Next.js-Configuring_Caching/main/public/1.png" alt="Main interface of the NextCaching project showing the messages page with a form to add new messages" width="200"/><br/>
   <em>Figure 1: Main interface of the NextCaching project showing the messages page with a form to add new messages</em>
 </p>
 
@@ -10,7 +10,7 @@
 This educational project demonstrates Next.js 14.1.3 caching mechanisms through a simple messages application. The project showcases various caching strategies, from basic fetch configurations to advanced React and Next.js cache utilities.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Figrac0/Next.js-Configuring_Caching/main/public/2.png" alt="Messages interface displaying stored messages including 'Test1', 'Test2', and 'Next.js - Configuring_Caching'" width="400"/><br/>
+  <img src="https://raw.githubusercontent.com/Figrac0/Next.js-Configuring_Caching/main/public/2.png" alt="Messages interface displaying stored messages including 'Test1', 'Test2', and 'Next.js - Configuring_Caching'" width="200"/><br/>
   <em>Figure 2: Messages interface displaying stored messages including "Test1", "Test2", and "Next.js - Configuring_Caching"</em>
 </p>
 
