@@ -231,5 +231,3 @@ const staticData = await fetch("/api/config", { next: { revalidate: 86400 } });
 This project demonstrates that Next.js provides a sophisticated, multi-layered caching system that balances performance with data freshness. Understanding these mechanisms is crucial for building efficient, scalable applications with optimal user experience.
 
 
-
-
