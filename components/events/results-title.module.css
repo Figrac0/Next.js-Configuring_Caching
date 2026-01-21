@@ -1,0 +1,19 @@
+.title {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    max-width: 48rem;
+}
+
+.title h1 {
+    font-size: 1.75rem;
+    color: #2d3748;
+    margin: 0 0 1.5rem;
+    font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    .title h1 {
+        font-size: 2rem;
+    }
+}
