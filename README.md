@@ -11,6 +11,15 @@ Next.js 13 (Pre-Rendering_Data-Fetching_Optimizing)
 - **Filtering System**: Advanced event filtering by date and location
 - **Performance Optimized**: Fast page loads with optimized assets
 
+## Project Overview
+
+
+<p align="center">
+  <img src="https://github.com/Figrac0/Next.js-Configuring_Caching_and_Advanced_Optimization/blob/DataF-Optimizing-Next13/public/1.png" alt="main photo" width="400"/><br/>
+</p>
+
+---
+
 ## 🚀 Key Technical Concepts Implemented
 
 ### 1. Pre-Rendering & Data Fetching Strategies
