@@ -133,7 +133,7 @@ class MyDocument extends Document {
 }
 ```
 
-**Learn More**: [Next.js Optimization Documentation](https://nextjs.org/docs/pages/building-your-application/optimizing)
+**Learn More**: [Next.js Optimization Documentation](https://nextjs.org/docs/pages/getting-started/images)
 
 ## 3. Performance Patterns
 
